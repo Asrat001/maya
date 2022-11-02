@@ -1,0 +1,169 @@
+.cont{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    margin-top: 8rem;
+    
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.box-1{
+    flex: 50%;
+    height: fit-content;
+    box-sizing: border-box;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 2.5rem;
+    
+    
+    
+}
+.box-2{
+    flex: 50%;
+    height: fit-content;
+    margin: 20px;
+    box-sizing: border-box;
+    font-size: 1.5rem;
+
+    
+    
+}
+.box-2 img{
+    width:100%;
+    height: fit-content;
+    padding: 20px;
+    border-bottom-right-radius: 2rem;
+    border-top-left-radius: 2rem;
+    box-shadow: 0 2rem 4rem black;
+}
+.box-1 h2{
+    font-weight: bold;
+    color: #0f1ea3 ;
+    
+}
+.box-1 span{
+    color: black;
+    font-size: 30px;
+    font-weight: bolder;
+    
+}
+
+.box-1 button{
+    margin-top: 4rem;
+}
+.about h2{
+    text-align: center;
+    margin-top: 13rem;
+    color:#0f1ea3  ;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.serv img{
+    width: 7rem;
+    height: 7rem;
+    margin-top: 1rem;
+}
+
+.serv{
+ 
+    height: 330px;
+    margin: 20px;
+    box-sizing: border-box;
+    font-size: 1.4rem; 
+    box-shadow: 0 3rem 6rem black;
+    cursor: pointer;
+    transition: .25s;
+    text-align: center;
+    
+}
+.abt-cont{
+    display: block;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+}
+.serv:hover{
+    transform: translateY(-0.5%);
+    box-shadow: 0 4rem 8rem  #0f1ea3 ;
+}
+
+@media only screen and (max-width:650px){
+  
+    .cont{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-around;
+        height: auto;
+        width: 100%;
+        justify-content: center;
+         align-items: center;
+    }
+  
+    .about h2{
+     
+        font-size: 2.1rem;
+    }
+   
+}
+@media only screen and (max-width:480px){
+    .box-1{
+     
+        font-size: 15px;
+        margin: 20px;
+    }
+    .box-1 span{
+        font-size: 15px;
+        font-weight: bolder;
+    }
+  
+    .cont{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-around;
+        height: auto;
+        width: 100%;
+        justify-content: center;
+    align-items: center;
+    
+    }
+  
+    .about h2{
+     
+        font-size: 2.1rem;
+    }
+  
+    .box-2{
+        width:max-content;
+    }
+   
+}
+@media (min-width: 800px) {
+    
+    .abt-cont{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-around;
+    }
+
+
+}
+@media (min-width: 800px) {
+
+    .serv{
+        width: 50%;
+        height: 330px;
+        margin: 20px;
+        box-sizing: border-box;
+        font-size: 1.4rem; 
+        box-shadow: 0 3rem 6rem black;
+        cursor: pointer;
+        transition: .25s;
+        
+    
+    
+}
+}

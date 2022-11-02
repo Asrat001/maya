@@ -1,0 +1,83 @@
+
+.sbutton{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    padding: 2rem;
+}
+
+.btn{
+    margin-left: 0.5rem;
+    text-decoration: none;
+    transition: .5s;
+}
+.btn:hover{
+    transform: translateY(-0.8%);
+    box-shadow: 0 2rem 4rem black ;
+}
+.head {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+    text-align: center;
+}
+@media only screen and (max-width:850px){
+    .head{
+        font-size: 18px;
+        
+    }
+    .sbutton{
+        
+    
+        margin-top: 2rem;
+        padding: 1rem;
+    }
+ 
+ 
+}
+@media only screen and (max-width:750px){
+    .head{
+        font-size: 18px;
+        
+    }
+    .sbutton{
+        
+    
+        margin-top: 2rem;
+        padding: 1rem;
+    }
+ 
+}
+@media only screen and (max-width:650px){
+    .head{
+        font-size: 18px;
+    
+    }
+    .sbutton{
+        
+    
+        margin-top: 2rem;
+        padding: 1rem;
+    }
+   
+  
+}
+@media only screen and (max-width:480px){
+    .head{
+        font-size: 18px;
+        
+    }
+    .sbutton{
+        
+    
+        margin-top: 2rem;
+        padding: 1rem;
+    }
+   
+}
+

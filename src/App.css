@@ -1,0 +1,46 @@
+.button {
+    background: linear-gradient(180deg, #111b6e 26.71%,  #111b6e 99.36%);
+    box-shadow: 0px 20px 24px 3px rgb(64, 202, 236);
+    border-radius: 34px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    padding: 11px 26px 11px 26px;
+  }
+  body{
+    overflow-x: hidden !important;
+  }
+  
+  .button:hover {
+    background: white;
+    cursor: pointer;
+    border: 1px solid var(--orange);
+    color: rgb(6, 2, 73)
+  }
+  .dbutton {
+    background: linear-gradient(180deg, #111b6e 26.71%,  #111b6e 99.36%);
+    box-shadow: 0px 20px 24px 3px rgb(64, 202, 236);
+    border-radius: 34px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    padding: 11px 26px 11px 26px;
+  }
+  *{
+    margin: 0 rem;
+    padding: 0rem;
+  }
+  body{
+background-color:whitesmoke
+  }
+  .App{
+    
+    overflow: hidden;
+      
+  }
+  @media screen and (max-width: 480px) {
+   
+    body{
+      overflow-x: hidden !important;
+    }
+  }

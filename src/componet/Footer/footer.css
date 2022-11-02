@@ -1,0 +1,34 @@
+.footer{
+    background-color:  #02083fa8;
+    padding: 5px;
+    width:100%;
+    margin-top: 3rem;
+    height:fit-content;
+    color: white;
+    text-align: center;
+
+}
+.icon{
+    margin-left: 10px;
+    margin-top: 1rem;
+}
+.footer h3{
+    color:whitesmoke;
+}
+ .footer p a{
+    text-decoration: none;
+    color: yellow;
+    font-weight: bold;
+   }
+   .footer p a:hover{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transform: translateY(.9%);
+   }
+@media only screen and (max-width:650px){
+  
+   .footer p{
+    font-size: 10px;
+   }
+}
