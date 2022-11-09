@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const API_URL = 'https://mayabackend12.onrender.com//users'
+const API_URL = 'https://mayabackend12.onrender.com/users'
 
 // Register user
 const register = async (userData) => {
